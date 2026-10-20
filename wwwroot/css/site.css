@@ -42,3 +42,16 @@ body {
     width: 250px;
     padding-top: 220px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.TextCreateAccount {
+    margin-left: 1340px;
+    margin-top: -410px;
+}

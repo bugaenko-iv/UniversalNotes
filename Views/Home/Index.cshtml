@@ -4,24 +4,26 @@
 
 <div class="text-center">
     <h2 class="WelcomeText">Welcome, это Универсальные заметки</h2>
-
     <div class="LoginForm">
-
         <div>
-            <input class="form-control" placeholder="Login"/>
+            <input class="form-control" placeholder="Login" />
+        </div>
+        
+        <br />
+        
+        <div>
+            <input class="form-control" placeholder="Password" />
+        
         </div>
 
         <br />
-
+        
         <div>
-            <input class="form-control" placeholder="Password"/>
+            <input class="btn btn-outline-dark w-100" type="submit" value="Войти" />
         </div>
-
-        <br />
-
-        <div>
-            <input class="btn btn-outline-dark w-100" type="submit" value="Войти"/>
-        </div>
-
     </div>
+</div>
+
+<div class="TextCreateAccount">
+    <a asp-controller="Notes" asp-action="Index">Регистрация</a>
 </div>
